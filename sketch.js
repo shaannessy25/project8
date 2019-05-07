@@ -8,7 +8,7 @@ function setup () {
 
   var flowerOne = new PlainFlower(width/2 - 40, 3 * height/4, color1);
   var flowerTwo = new PlainFlower(width/2 + 40, 3 * height/4, color2);
-
+var flowerThree = new PlainFlower(width/2 + 40, 3 * height/4, color2);
   // #3 Create 2 new flowers from FancyFlower class
   
   garden = [flowerOne, flowerTwo]; 
